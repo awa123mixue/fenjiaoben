@@ -24,13 +24,3 @@ local args = {
 
 game:GetService("ReplicatedStorage").events.runcode:FireServer(unpack(args))            
     
-local Sound = Instance.new("Sound", workspace)
-        Sound.SoundId = "rbxassetid://2533608894"
-        Sound:Play()
-        Notification:Notify(
-            {Title = "体验Sanshub", Description = "其他功能请购买"}, 
-            {OutlineColor = Color3.fromRGB(250, 80, 80), Time = 5, Type = "image"}, 
-            {Image = "http://www.roblox.com/asset/?id=139537085184495", ImageColor = Color3.fromRGB(255, 84, 84)}
-        )
-        return
-    end
