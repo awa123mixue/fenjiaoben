@@ -1,3 +1,11 @@
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "等待10秒",
+    Text = "作者QQ:2984967309",
+    Duration = 10, 
+})
+wait 10
 local args = {
     [1] = "100M"
 }
