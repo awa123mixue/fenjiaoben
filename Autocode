@@ -1,0 +1,5 @@
+if game.PlaceId == 6839171747 then -elseif game.PlaceId == 7150950346 then --exp审判日
+loadstring(game:HttpGet("https://raw.githubusercontent.com/awa123mixue/fenjiaoben/refs/heads/main/Fisch"))()
+end
+
+end
