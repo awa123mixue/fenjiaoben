@@ -1,0 +1,8 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/awa123mixue/fenjiaoben/refs/heads/main/Autocode"))()
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "执行中",
+    Text = "1次核查",
+    Duration = 3, 
+})
