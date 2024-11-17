@@ -3,3 +3,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/awa123mixue/fenjiaobe
 end
 
 end
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "执行提示",
+    Text = "2以以运行",
+    Duration = 3, 
+})
+Print("StarterGui")
