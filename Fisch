@@ -2,25 +2,6 @@ local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
     Title = "通知",
-    Text = "作者QQ:2984967309",
+    Text = "脚本已失效",
     Duration = 10, 
 })
-
-local args = {
-    [1] = "100M"
-}
-
-game:GetService("ReplicatedStorage").events.runcode:FireServer(unpack(args))
-
-local args = {
-    [1] = "200K"
-}
-
-game:GetService("ReplicatedStorage").events.runcode:FireServer(unpack(args))
-
-local args = {
-    [1] = "Scubaaaa"
-}
-
-game:GetService("ReplicatedStorage").events.runcode:FireServer(unpack(args))            
-    
