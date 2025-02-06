@@ -2,6 +2,6 @@ local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
     Title = "通知",
-    Text = "脚本已失效",
+    Text = "你不是管理员无法进入服务器",
     Duration = 10, 
 })
